@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+                android:padding="5dp"
+        android:text="@string/app_welcome"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnSoccer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#7c954a"
+        android:padding="5dp"
+        android:text="@string/btn_soccer" />
+
+    <Button
+        android:id="@+id/btnSoccerCup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#8ab019"
+        android:padding="5dp"
+        android:text="@string/btn_soccer_cup" />
+
+    <Button
+        android:id="@+id/btnBasketball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="5dp"
+        android:text="@string/btn_basketball" />
+
+</LinearLayout>

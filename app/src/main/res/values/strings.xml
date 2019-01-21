@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SportScores</string>
+    <string name="app_welcome">Welcome, choose your mode</string>
+    <string name="btn_soccer">Football</string>
+    <string name="btn_soccer_cup">Football cup mode</string>
+    <string name="btn_basketball">Basketball</string>
+    <string name="btn_overtime">Play overtime!</string>
+    <string name="btn_pen">Penalties!</string>
+    <string name="btn_extratime">Play extra time!</string>
+    <string name="btnName">Roll the dice!</string>
+    <string name="tvStart">"?"</string>
+    <string name="menuReset">Reset</string>
+
+</resources>
